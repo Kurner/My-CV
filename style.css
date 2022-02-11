@@ -1,0 +1,131 @@
+h1 
+{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2
+{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+p>img{
+    width: 80%;
+    margin-left: 7vh;
+}
+
+.mail>img, .quality img
+{
+    width: 16vh;
+    height: 13vh;
+    margin-right: 2vh;
+}
+
+.mail, .quality
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parkoor>img
+{
+    width: 100vh;
+    height: 75vh;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* CLASS */
+
+.container
+{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 2.5fr;
+    grid-template-rows: 0.7fr 8fr 0fr;
+    grid-template-areas: 
+    "skill titre titre"
+    "skill content content"
+    "skill content content"
+    "skill content content"  
+    ;
+}
+
+.titre
+{
+    grid-area: titre;
+    background-color: yellow;
+}
+
+.content
+{
+    grid-area: content;
+    background-color: rgb(58, 58, 18);
+}
+
+.competenceLogo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logo
+{
+    height: 110px;
+    width: 140px;
+    margin-left: 20px;
+}
+
+.disclaimer
+{
+    width: fit-content;
+    margin: auto;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size: small;
+}
+
+.separator
+{
+    width: 225px;
+    height: 2px;
+    margin: 50px auto;
+    display: block;
+    background: rgb(0, 0, 0);
+}
+
+.site
+{
+    width: fit-content;
+    margin: auto;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+ul, p
+{
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.skillSoft
+{
+    grid-area: skill;
+    background-color: rgb(52, 63, 161);
+}
+
+/* ID */
+
+#logo
+{
+    width: 80%;
+}
